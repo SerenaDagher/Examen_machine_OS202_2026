@@ -5,6 +5,11 @@ import numpy as np
 import visualizer3d
 import sys
 from numba import njit, prange
+from mpi4py import MPI
+
+comm = MPI.COMM_WORLD
+rank = comm.Get_rank()
+size = comm.Get_size()
 
 # Unités:
 # - Distance: année-lumière (ly)
@@ -84,7 +89,7 @@ def update_stars_in_grid( cell_start_indices : np.ndarray, body_indices : np.nda
         body_indices[index_in_cell] = ibody
         current_counts[morse_idx] += 1
     # Maintenant, on peut calculer le centre de masse et la masse totale de chaque cellule
-    for i in range(len(cell_counts)):
+    for i in prange(len(cell_counts)):
         cell_mass = 0.0
         com_position = np.zeros(3, dtype=np.float32)
         start_idx = cell_start_indices[i]
@@ -100,7 +105,7 @@ def update_stars_in_grid( cell_start_indices : np.ndarray, body_indices : np.nda
         cell_masses[i] = cell_mass
         cell_com_positions[i] = com_position
 
-@njit
+@njit(parallel=True)
 def compute_acceleration( positions : np.ndarray, masses : np.ndarray,
                           cell_start_indices : np.ndarray, body_indices : np.ndarray,
                           cell_masses : np.ndarray, cell_com_positions : np.ndarray,
@@ -108,7 +113,7 @@ def compute_acceleration( positions : np.ndarray, masses : np.ndarray,
                           cell_size : np.ndarray, n_cells : np.ndarray):
     n_bodies = positions.shape[0]
     a = np.zeros_like(positions)
-    for ibody in range(n_bodies):
+    for ibody in prange(n_bodies):
         pos = positions[ibody]
         cell_idx = np.floor((pos - grid_min) / cell_size).astype(np.int64)
         for i in range(3):
@@ -158,7 +163,7 @@ class SpatialGrid:
         # et on gère deux tableaux : un pour le début des indices de chaque cellule, un autre pour les indices des corps
         self.cell_start_indices = np.full(np.prod(self.n_cells) + 1, -1, dtype=np.int64)
         self.body_indices = np.empty(shape=(positions.shape[0],), dtype=np.int64)
-        # Stockage du centre de masse de chaque cellule et de la masse totale contenue dans chaque cellule
+        # Stockage du centre de masse de chaque cellule et de la masse totale contenue dans chaque cellule
         self.cell_masses = np.zeros(shape=(np.prod(self.n_cells),), dtype=np.float32)
         self.cell_com_positions = np.zeros(shape=(np.prod(self.n_cells), 3), dtype=np.float32)
         
@@ -226,19 +231,42 @@ system : NBodySystem
 
 def update_positions(dt : float):
     global system
-    system.update_positions(dt)
-    return system.positions
+    if rank == 0:
+        print("rank 0 : envoi dt", flush=True)
+        comm.send(dt, dest=1, tag=0)
+        print("rank 0 : attente positions", flush=True)
+        positions = comm.recv(source=1, tag=1)
+        print("rank 0 : positions reçues", flush=True)
+        return positions
+
+def worker_loop(dt : float):
+    global system
+    status = MPI.Status()
+    while True:
+        print("rank 1 : attente dt", flush=True)
+        recv_dt = comm.recv(source=0, tag=MPI.ANY_TAG, status=status)
+        if status.tag == 2:
+            break
+        print("rank 1 : calcul", flush=True)
+        system.update_positions(recv_dt)
+        print("rank 1 : envoi positions", flush=True)
+        comm.send(system.positions, dest=0, tag=1)
 
 def run_simulation(filename, geometry=(800,600), ncells_per_dir : tuple[int, int, int] = (10,10,10), dt=0.001):
-    # Initialise le système de corps :
+
     global system
     system = NBodySystem(filename, ncells_per_dir=ncells_per_dir)
-    # Initialise l'affichage graphique :
+
+    if rank == 1:
+        worker_loop(dt)
+        return
+
     pos = system.positions
     col = system.colors
     intensity = np.clip(system.masses / system.max_mass, 0.5, 1.0)
     visu = visualizer3d.Visualizer3D(pos, col, intensity,  [[system.box[0][0], system.box[1][0]], [system.box[0][1], system.box[1][1]], [system.box[0][2], system.box[1][2]]])
     visu.run(updater=update_positions, dt = dt)
+    comm.send(0.0, dest=1, tag=2)
 
 
 filename = "data/galaxy_1000"
@@ -250,7 +278,12 @@ if len(sys.argv) > 2:
     dt = float(sys.argv[2])
 if len(sys.argv) > 5:
     n_cells_per_dir = (int(sys.argv[3]), int(sys.argv[4]), int(sys.argv[5]))
+
+if size != 2:
+    if rank == 0:
+        print("Ce programme doit être lancé avec 2 processus.")
+    sys.exit()
     
-print(f"Simulation de {filename} avec dt = {dt} et grille {n_cells_per_dir}")
+if rank == 0:
+    print(f"Simulation de {filename} avec dt = {dt} et grille {n_cells_per_dir}")
 run_simulation(filename, ncells_per_dir=n_cells_per_dir, dt=dt)
-    

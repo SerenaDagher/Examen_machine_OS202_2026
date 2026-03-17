@@ -84,7 +84,7 @@ def update_stars_in_grid( cell_start_indices : np.ndarray, body_indices : np.nda
         body_indices[index_in_cell] = ibody
         current_counts[morse_idx] += 1
     # Maintenant, on peut calculer le centre de masse et la masse totale de chaque cellule
-    for i in range(len(cell_counts)):
+    for i in prange(len(cell_counts)):
         cell_mass = 0.0
         com_position = np.zeros(3, dtype=np.float32)
         start_idx = cell_start_indices[i]
@@ -100,7 +100,7 @@ def update_stars_in_grid( cell_start_indices : np.ndarray, body_indices : np.nda
         cell_masses[i] = cell_mass
         cell_com_positions[i] = com_position
 
-@njit
+@njit(parallel=True)
 def compute_acceleration( positions : np.ndarray, masses : np.ndarray,
                           cell_start_indices : np.ndarray, body_indices : np.ndarray,
                           cell_masses : np.ndarray, cell_com_positions : np.ndarray,
@@ -108,7 +108,7 @@ def compute_acceleration( positions : np.ndarray, masses : np.ndarray,
                           cell_size : np.ndarray, n_cells : np.ndarray):
     n_bodies = positions.shape[0]
     a = np.zeros_like(positions)
-    for ibody in range(n_bodies):
+    for ibody in prange(n_bodies):
         pos = positions[ibody]
         cell_idx = np.floor((pos - grid_min) / cell_size).astype(np.int64)
         for i in range(3):
@@ -158,7 +158,7 @@ class SpatialGrid:
         # et on gère deux tableaux : un pour le début des indices de chaque cellule, un autre pour les indices des corps
         self.cell_start_indices = np.full(np.prod(self.n_cells) + 1, -1, dtype=np.int64)
         self.body_indices = np.empty(shape=(positions.shape[0],), dtype=np.int64)
-        # Stockage du centre de masse de chaque cellule et de la masse totale contenue dans chaque cellule
+        # Stockage du centre de masse de chaque cellule et de la masse totale contenue dans chaque cellule
         self.cell_masses = np.zeros(shape=(np.prod(self.n_cells),), dtype=np.float32)
         self.cell_com_positions = np.zeros(shape=(np.prod(self.n_cells), 3), dtype=np.float32)
         
@@ -253,4 +253,3 @@ if len(sys.argv) > 5:
     
 print(f"Simulation de {filename} avec dt = {dt} et grille {n_cells_per_dir}")
 run_simulation(filename, ncells_per_dir=n_cells_per_dir, dt=dt)
-    

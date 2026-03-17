@@ -1,0 +1,1081 @@
+Simulation de data/galaxy_1000 avec dt = 0.001 et grille (20, 20, 1) sur 2 processus MPI
+Contrôles :
+  - Clic gauche + déplacement souris : rotation de la caméra
+  - Molette de la souris : zoom
+  - ESC ou fermeture de fenêtre : quitter
+Update time: 2052.64 ms
+Render time: 20 ms, Update time: 2053 msUpdate time: 4.97 ms
+Render time: 13 ms, Update time: 5 msUpdate time: 4.46 ms
+Render time: 27 ms, Update time: 4 msUpdate time: 4.38 ms
+Render time: 3 ms, Update time: 5 msUpdate time: 4.37 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.29 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.30 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.34 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.36 ms
+Render time: 10 ms, Update time: 4 msUpdate time: 4.29 ms
+Render time: 7 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 3 ms, Update time: 5 msUpdate time: 4.34 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.33 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.29 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.31 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.34 ms
+Render time: 3 ms, Update time: 5 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.29 ms
+Render time: 3 ms, Update time: 4 msUpdate time: 4.34 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.38 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.41 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.34 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.55 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.36 ms
+Render time: 3 ms, Update time: 5 msUpdate time: 4.37 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 3 ms, Update time: 5 msUpdate time: 4.29 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 3 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 3 ms, Update time: 4 msUpdate time: 4.31 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.31 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.36 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.30 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 3.98 ms
+Render time: 3 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.94 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 3 ms, Update time: 5 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.36 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 3 ms, Update time: 5 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.30 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.31 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.31 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.46 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.56 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.39 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.94 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 3 ms, Update time: 5 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.30 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.33 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.32 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.25 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.97 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.95 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.94 ms
+Render time: 5 ms, Update time: 3 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.97 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.29 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.97 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.95 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.97 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.97 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.97 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.94 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.97 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.97 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.95 ms
+Render time: 5 ms, Update time: 3 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.20 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.95 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.94 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.95 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 3 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.96 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.26 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.98 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.01 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.21 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.00 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.30 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.15 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 3.99 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.22 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.02 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.12 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.05 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.07 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.23 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.16 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.28 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.13 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.14 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.18 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.19 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.03 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.06 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.31 ms
+Render time: 4 ms, Update time: 5 msUpdate time: 4.27 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.08 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.10 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.13 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.30 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.09 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.17 ms
+Render time: 5 ms, Update time: 4 msUpdate time: 4.04 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.11 ms
+Render time: 4 ms, Update time: 4 msUpdate time: 4.24 ms
+Render time: 13 ms, Update time: 4 ms
